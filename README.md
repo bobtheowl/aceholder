@@ -62,6 +62,7 @@ The minimum and maximum length of generated words can be adjusted with these opt
 
 I would like to add the following features in the future:
 
+ - Update it to be more easily used as a package.
  - Add the Javascript to properly register the `<ace-holder>` elements.
  - Add support for image aceholders. More than likely this will be an optional `type="image"` attribute which will default to the standard text.
  - Add some example images of the generated output to this readme.

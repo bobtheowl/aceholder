@@ -1,0 +1,30 @@
+ace-holder.aceholder-is-init .aceholder-paragraphs {
+	border: 2px dashed #999;
+	padding: 2px;
+	position: relative;
+}
+
+ace-holder.aceholder-is-init .aceholder-paragraph {
+	color: transparent;
+	margin-bottom: 8px;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+ace-holder.aceholder-is-init .aceholder-label {
+	background: rgba(255, 255, 255, 0.75);
+	box-shadow: 3px 3px 6px 6px rgba(0, 0, 0, .15);
+	left: 50%;
+	padding: 8px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+}

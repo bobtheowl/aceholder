@@ -1,0 +1,25 @@
+{
+  "name": "aceholder",
+  "version": "1.0.0",
+  "description": "Enables placeholder elements which can be used while designing a website, before copy or images are received.",
+  "main": "aceholder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobtheowl/aceholder.git"
+  },
+  "keywords": [
+    "placeholder",
+    "design",
+    "html",
+    "css"
+  ],
+  "author": "Jacob Stair <jacob.stair@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/bobtheowl/aceholder/issues"
+  },
+  "homepage": "https://github.com/bobtheowl/aceholder#readme"
+}

@@ -11,6 +11,10 @@ const ACEHOLDER_DEFAULT_OPTIONS = {
     }
 };
 
+class AceholderElement extends HTMLElement { }
+
+window.customElements.define('ace-holder', AceholderElement);
+
 class Aceholder {
     constructor(container, options) {
         if (typeof container === 'undefined') {

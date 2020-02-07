@@ -29,7 +29,7 @@ class Aceholder {
             ? container
             : document.querySelector(container);
 
-        this.options = Object.assign(ACEHOLDER_DEFAULT_OPTIONS, options);
+        this.options = Object.assign({}, ACEHOLDER_DEFAULT_OPTIONS, options);
 
         if (this.container === null) {
             throw 'An invalid container was specified.';

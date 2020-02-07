@@ -147,7 +147,11 @@ class Aceholder {
         ));
 
         aceholders.forEach((aceholder) => {
-            //
+            let label = aceholder.querySelector('.' + this.options.classes.label),
+                labelContents = label.innerHTML;
+
+            aceholder.innerHTML = labelContents;
+            aceholder.classList.remove(this.options.classes.isInit);
         });
     }// end revertElements()
 }// end class Aceholder
